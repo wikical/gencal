@@ -1,0 +1,14 @@
+\.sass-cache
+\.well-known
+local
+
+syntax: glob
+*.bak
+*.class
+*.log
+*.mo
+*.orig
+*.pyc
+*.swp
+*.~
+*.un~
