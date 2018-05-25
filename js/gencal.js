@@ -41,7 +41,7 @@ var updateImages = function(event_ids) {
     imagesUpdated = true;
     $.ajax({
         type: "GET",
-        url: 'https://wikical.com/api/endpoint/event_cover_pictures/?size=350&event_ids='+event_ids,
+        url: 'https://wikical.com/api/endpoint/event/cover_pictures/?size=350&event_ids='+event_ids,
         async:true,
         crossDomain:true,
         timeout: 10000,
